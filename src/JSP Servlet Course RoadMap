@@ -1,0 +1,71 @@
+JSP & Servlet Course Roadmap
+============================
+1.  Introduction to Servlet ("Jsp-Servlet notes.pptx" pg.1 )
+
+2.  Eclipse setup & tour	("Jsp-Servlet notes.pptx" pg.2)
+
+3.  Configure Tomcat in Eclipse ("Jsp-Servlet notes.pptx" pg.3)
+
+4.  Eclipse and Tomcat setup on Windows ("Jsp-Servlet notes.pptx" pg.4)
+
+5.  Creating Web Project in Eclipse ("Jsp-Servlet notes.pptx" pg.5 + index.html)
+
+6.  Creating Web Project in Eclipse expanding the need of Servlet (index1.html)
+
+7.  Create Servlet & Web.xml (index1.html + AddServlet.java + web.xml ) 
+
+8.  ISSUES: HttpServlet issues in Java Build Path in Eclipse & it's Soln ("Jsp-Servlet notes.pptx" pg.6 )
+
+9.  ISSUES: JavaDoc WebApp issues in Java Build Path in Eclipse & It's Soln ("Jsp-Servlet notes.pptx" pg.7 )
+
+10. Get & Post method (index2.html + AddServletPost.java + web.xml)
+
+11. RequestDispatcher - Calling a Servlet from Servlet  (index3.html + AddSqReqDispatcher.java + SquareServlet.java + web.xml)
+
+12. HttpServletRequest & HttpServletResponse  ("Jsp-Servlet notes.pptx" pg.8 )
+
+13. RequestDispatcher & sendRedirect theory ("Jsp-Servlet notes.pptx" pg.9 )
+
+14. sendRedirect URL Rewriting  (index4.html + AddSqsendRedirect.java + SquareServlet.java + web.xml)
+
+15. HttpSession & Cookie  (index5.html + AddSqSessionCookie.java + SquareServlet.java + web.xml)
+
+16. ServletConfig & ServletContext (ServletContextConfig.java + web.xml)
+
+17. ISSUES: The requested resource ... is not available issues & it's Soln ("Jsp-Servlet notes.pptx" pg.10 )
+
+18. Servlet Annotation Configuration (ServletContextConfig.java + web.xml)
+
+19. Why JSP? (WhyJsp.java + add.jsp + index7.html)
+
+20. How JSP is translated in Servlets ("Jsp-Servlet notes.pptx" pg.11 )
+
+21. JSP tags - Scriptlet, Declaration, Directive, Expression  (add.jsp + index7.html)
+
+22. JSP Directive | Page | Include | Taglib 	(home.jsp, "Jsp-Servlet notes.pptx" pg.12 )
+
+23. Implicit object in JSP 		(home.jsp, "Jsp-Servlet notes.pptx" pg.13 )
+
+24. Exception handling in JSP    (home.jsp, error.jsp) 
+
+25. JDBC in JSP    (profileJdbc.jsp, "Jsp-Servlet notes.pptx" pg.14 )
+
+26. MVC using Servlet & JSP   ( "Jsp-Servlet notes.pptx" pg.15 )
+
+27. JSTL 1 & EL & Jstl 2 Core tags ( "Jsp-Servlet notes.pptx" pg.16, JstlServlet.java + JstlDisplay.jsp, Student.java )
+
+28. JSTL SQL tags (JstlSql.jsp + "Jsp-Servlet notes.pptx" pg.16)
+
+29. JSTL Function Tags  ( JstlFunc.jsp )
+
+30. Login Using Servlet & JSP   ( login.jsp + welcome.jsp + videos.jsp + aboutus.jsp + Login.java + Logout.java  )
+
+31. How to prevent back button after logout? (welcome.jsp + videos.jsp)
+
+32. Login Using Servlet & JSP | JDBC ( login.jsp + welcome.jsp + videos.jsp + aboutus.jsp + Login.java + Logout.java + LoginDao.java)
+
+33. Servlet JSP JDBC example 
+	(Project -> ServletJspJdbcDemo -> index.jsp, web.xml, showAllien.jsp, GetAllienController.java, Allien.java, AllienDao.java)
+
+34. File upload in Java Servlet using Maven project 
+(project -> FileUploadMavenDemo, FileUpload.java, index.jsp, web.xml, FileUploadView.jsp   )
